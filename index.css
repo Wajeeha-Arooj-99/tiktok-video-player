@@ -1,0 +1,91 @@
+/* ===============================
+   PAGE 758 – Banner Heading Outline Only
+   =============================== */
+
+.page-id-758 .banner_text_center {
+  overflow: hidden;
+}
+
+/* H1 Base */
+.page-id-758 .banner_text_center h1 {
+  white-space: nowrap !important;
+  overflow: hidden;
+  text-overflow: clip;
+  line-height: 1.05;
+  word-break: normal;
+  overflow-wrap: normal;
+  hyphens: none;
+  margin: 0;
+}
+
+/* Normal text line */
+.page-id-758 .banner_text_center h1 .anim_line {
+  display: inline-block;
+  white-space: inherit !important;
+  font-size: clamp(30px, 4.5vw, 52px) !important;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+
+/* OUTLINE TEXT (NO FILL) */
+.page-id-758 .banner_text_center h1 .anim_line span {
+  display: inline-block;
+  white-space: inherit !important;
+  font-weight: 900;
+  letter-spacing: 2.5px;
+
+  -webkit-text-fill-color: transparent;   /* fill OFF */
+  -webkit-text-stroke: 2px #ffffff;       /* OUTLINE COLOR */
+}
+
+/* ===============================
+   RESPONSIVE FONT SIZES
+   =============================== */
+
+/* Desktop */
+.page-id-758 .banner_text_center h1 .anim_line {
+  font-size: 48px !important;
+}
+.page-id-758 .banner_text_center h1 .anim_line span {
+  font-size: 99px !important;
+}
+
+/* Laptop */
+@media (max-width: 1440px) {
+  .page-id-758 .banner_text_center h1 .anim_line {
+    font-size: 44px !important;
+  }
+  .page-id-758 .banner_text_center h1 .anim_line span {
+    font-size: 56px !important;
+  }
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .page-id-758 .banner_text_center h1 .anim_line {
+    font-size: 36px !important;
+  }
+  .page-id-758 .banner_text_center h1 .anim_line span {
+    font-size: 48px !important;
+  }
+}
+
+/* Mobile Large */
+@media (max-width: 768px) {
+  .page-id-758 .banner_text_center h1 .anim_line {
+    font-size: 32px !important;
+  }
+  .page-id-758 .banner_text_center h1 .anim_line span {
+    font-size: 40px !important;
+  }
+}
+
+/* Mobile Small */
+@media (max-width: 480px) {
+  .page-id-758 .banner_text_center h1 .anim_line {
+    font-size: 26px !important;
+  }
+  .page-id-758 .banner_text_center h1 .anim_line span {
+    font-size: 30px !important;
+  }
+}
